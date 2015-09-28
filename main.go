@@ -163,6 +163,7 @@ func (h *DBHandler) guitarsEdit(rw http.ResponseWriter, req *http.Request, id in
 	h.r.JSON(rw, http.StatusOK, &guitar)
 }
 
+//ffff
 // guitarsDestroyHandler deletes a guitar from the db.
 func (h *DBHandler) guitarsDestroyHandler(rw http.ResponseWriter, req *http.Request) {
 	id := getId(req)
